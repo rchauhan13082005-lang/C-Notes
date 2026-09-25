@@ -79,7 +79,7 @@ namespace Chapter3
         }
     }
 
-    // Inheritance//
+    // Abstract\Inheritance//
     public abstract class Employee 
     {
         public string Name { get; set; }
@@ -111,7 +111,7 @@ namespace Chapter3
             Console.WriteLine("Manager is managing the team.");
         }
     }
-
+    //Poymorphism//
     public class EmployeeAdmin 
     {
         public void CalculateSalary(int basicSalary)
