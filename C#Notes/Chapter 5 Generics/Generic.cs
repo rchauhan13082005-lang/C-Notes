@@ -30,9 +30,6 @@ namespace C_Notes.Chapter_5
             DataStore<string> stringStore = new DataStore<string>("Rajat");
             Console.WriteLine(stringStore.GetValue());
 
-
-
-
         }
     }
 
